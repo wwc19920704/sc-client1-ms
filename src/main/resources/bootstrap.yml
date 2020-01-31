@@ -18,12 +18,12 @@ eureka:
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 15
 
-#apollo:
-#  bootstrap:
-#    enabled: true
-#    namespaces: application,business
-#    eagerLoad:
-#      enabled: true
+apollo:
+  bootstrap:
+    enabled: true
+    namespaces: application,business
+    eagerLoad:
+      enabled: true
 
 #mybatis config
 #mybatis:
