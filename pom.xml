@@ -9,7 +9,7 @@
   <properties>
         <jdbc.groupId>mysql</jdbc.groupId>
         <jdbc.artifactId>mysql-connector-java</jdbc.artifactId>
-        <jdbc.version>5.1.38</jdbc.version>
+        <jdbc.version>8.0.16</jdbc.version>
     </properties>
 
     <dependencies>
