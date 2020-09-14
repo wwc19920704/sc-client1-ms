@@ -1,15 +1,14 @@
 package com.wwc.spring.cloud.client1.controller;
 
-import java.util.UUID;
+import com.wwc.spring.cloud.client1.bean.ConfigBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import com.wwc.spring.cloud.client1.bean.ConfigBean;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/index")
